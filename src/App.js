@@ -1,9 +1,9 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import './styles/style.scss';
-import Landing from './pages/landing';
-import Register from './pages/register';
-import Login from './pages/login';
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
+import './styles/style.scss'
+import Landing from './pages/landing'
+import Register from './pages/register'
+import Login from './pages/login'
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
         <Landing />
       </Route>
     </Switch>
-  );
-};
+  )
+}
 
-export default App;
+export default App

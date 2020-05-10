@@ -1,6 +1,6 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import SignIn from '../components/SignIn';
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import SignIn from '../components/SignIn'
 
 const login = () => {
   return (
@@ -10,7 +10,7 @@ const login = () => {
       </NavLink>
       <SignIn />;
     </div>
-  );
-};
+  )
+}
 
-export default login;
+export default login

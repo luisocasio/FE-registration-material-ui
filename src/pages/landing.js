@@ -1,5 +1,5 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const landing = () => {
   return (
@@ -17,7 +17,7 @@ const landing = () => {
         login
       </NavLink>
     </div>
-  );
-};
+  )
+}
 
-export default landing;
+export default landing

@@ -1,6 +1,6 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import SignUp from '../components/SignUp';
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import SignUp from '../components/SignUp'
 
 const register = () => {
   return (
@@ -10,7 +10,7 @@ const register = () => {
       </NavLink>
       <SignUp />
     </div>
-  );
-};
+  )
+}
 
-export default register;
+export default register
